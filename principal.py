@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field
 from fastapi.middleware.cors import CORSMiddleware
 
 # Chave de API de exemplo (em um cenário real, use variáveis de ambiente)
-API_KEY = "cofipei_2024_secret_key_financas"
+API_KEY = "julius_2025_secret_key_financas"
 
 # Função de autenticação
 async def verify_api_key(api_key_header: str = Depends(APIKeyHeader(name="X-API-Key"))):
