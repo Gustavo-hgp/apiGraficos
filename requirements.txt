@@ -1,0 +1,5 @@
+fastapi==0.109.2
+uvicorn==0.27.0.post1
+matplotlib==3.8.2
+pydantic==2.6.1
+pillow==10.2.0
